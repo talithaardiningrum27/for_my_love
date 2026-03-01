@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday 🎉</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background-image: url("https://drive.google.com/uc?export=view&id=1TTjaDKOHR2TF0EYfrGL_aH8INrgRe74k");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.65);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 25px;
+      padding: 30px;
+      max-width: 90%;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      color: #ff6f91;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background: #ff6f91;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-size: 16px;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ff4f7a;
+    }
+
+    .letter {
+      display: none;
+      margin-top: 20px;
+      color: #444;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>🎂 Happy Birthday 🎉</h1>
+
+    <button onclick="openLetter()">📜 Buka Surat</button>
+
+    <div class="letter" id="letter">
+      <p>
+        Hari ini aku cuma mau meluangkan waktu sejenak buat bilang betapa bersyukurnya aku punya kamu di hidupku.
+        Kadang kita terlalu sibuk sama urusan masing-masing sampai lupa buat mengapresiasi kehadiran satu sama lain,
+        tapi di hari spesialmu ini, aku pengen kamu tahu kalau kamu itu berarti banget.
+      </p>
+
+      <p>
+        Makasih ya sudah jadi orang yang paling "waras" pas aku lagi kacau,
+        dan jadi orang yang paling seru pas kita lagi mau gila-gilaan bareng.
+      </p>
+
+      <p>
+        Aku berharap di usia yang baru ini, kamu bisa lebih sayang sama diri sendiri.
+        Ingat kalau kamu nggak harus selalu kuat sendirian.
+      </p>
+
+      <p>
+        Sekali lagi, selamat ulang tahun, Sayang 🤍  
+        Love you so much!
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function openLetter() {
+      document.getElementById("letter").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
